@@ -22,7 +22,7 @@
             <v-card class="rounded" elevation="10">
                <v-card-text>
                   <v-icon class="text-xs-center" size="100" color="primary">
-                   fa fa-map-marker
+                   fa fa-
                   </v-icon>
                </v-card-text>
                <v-card-text>
@@ -33,7 +33,7 @@
            <v-flex sm12 lg6 xl6>
               <v-card class="rounded" elevation="10">
                  <v-card-text class="text-xs-center">
-                    <v-icon  color="primary" class="text-xs-center" size="100">fa fa-calendar</v-icon>
+                    <v-icon  color="primary" class="text-xs-center" size="100">fa fa-</v-icon>
                  </v-card-text>
                  <v-card-text>
                     <h3>Founded at 7 November 2019</h3>
@@ -55,13 +55,12 @@
                   </v-card-text>
                   <v-layout align-center justify-space-around>
                      <v-flex>
-                     <v-icon size="200"> fa fa-home</v-icon>
+                     <v-icon size="200"> fa fa-</v-icon>
                   </v-flex>
                   <v-flex>
                      <v-btn
-                     outline round large
-                     :to="{path: '/login'}">
-                    
+                     outline round large>
+                    TENTANG
                   </v-btn>
                   </v-flex>
                   </v-layout>
@@ -77,10 +76,9 @@
 export default {
    data:() => ({
       carousel:[
-         {images: "/assets/yuyuns.jpg"},
-         {images: "/assets/ngamen.jpg"},
-         {images: "/assets/ngamen2.jpg"},
-         {images: "/assets/ngamen3.jpg"},
+         {images: "/assets/Image1.jpg"},
+         {images: "/assets/Image2.jpg"},
+         
       ]
    }),
    methods: {

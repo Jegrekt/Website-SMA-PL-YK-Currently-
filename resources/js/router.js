@@ -21,6 +21,7 @@ import CheckInApp from './components/scanner/CheckInApp.vue'
 import RootCustomer from './components/RootCustomer'
 import Ticket from './components/customers/pages/TicketCust.vue'
 import Tentang from './components/Tentang.vue'
+import Contacts from './components/Contacts.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -29,6 +30,7 @@ const routes = [
     {path: '/register', component: RegisterCustomer},
     {path: '/', component: Landing},
     {path: '/tentang', component: Tentang},
+    {path: '/contacts', component: Contacts},
     {path: '/superadmin', component: RootSAdmin,
         children: [
             {path: '/superadmin',component: SAdminDashboard,

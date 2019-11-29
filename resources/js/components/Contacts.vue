@@ -29,7 +29,7 @@
                   <v-flex class="text-sm-left">
                      <p >Contact
                          Creator of Team IT SMA PL WEBSITE
-                         Andre V
+                         Andre "Jegrekt" Victory
                          Wina
                          Okta
                          Steven
@@ -70,8 +70,10 @@
                   </v-flex>
                   <v-flex>
                      <v-btn
-                     outline round large>
-                    Contact
+                     outline round large
+                     :to="{path: '/tentang'}"
+                     >
+                    Tentang
                   </v-btn>
                   </v-flex>
                   </v-layout>

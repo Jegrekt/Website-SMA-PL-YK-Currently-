@@ -82,8 +82,10 @@
                   </v-flex>
                   <v-flex>
                      <v-btn
-                     outline round large>
-                    Contact
+                     outline round large
+                    :to="{path: '/'}"
+                     >
+                     home
                   </v-btn>
                   </v-flex>
                   </v-layout>

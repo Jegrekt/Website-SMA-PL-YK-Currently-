@@ -59,8 +59,10 @@
                   </v-flex>
                   <v-flex>
                      <v-btn
-                     outline round large>
-                    TENTANG
+                     outline round large
+                     :to="{path: '/contacts'}"
+                     >
+                     contacts
                   </v-btn>
                   </v-flex>
                   </v-layout>
